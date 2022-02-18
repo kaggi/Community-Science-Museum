@@ -1,11 +1,6 @@
 /*General*/
 
 @font-face {
-  font-family: "ScienceProject-WK5v";
-  src: url("../fonts/ScienceProject-WK5v.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "MadScience";
   src: url("../fonts/MadScience.ttf") format("truetype");
 }
@@ -21,7 +16,21 @@ footer {
   border: 1px solid black;
 }
 
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/*End general section*/
+
 /*Header*/
+
+header {
+  margin-top: 2px;
+}
+
 #navigation_header {
   font-family: "ScienceProject-WK5v", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,6 +58,14 @@ header h1 {
   justify-content: space-evenly;
 }
 
+#hamburger_menu_label {
+  display: none;
+}
+
+#hamburger_menu {
+  display: none;
+}
+
 .menu_button {
   text-decoration: none;
   font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
@@ -66,6 +83,8 @@ header h1 {
   background-color: white;
 }
 
+/*End Header section*/
+
 /*Footer*/
 
 footer {
@@ -73,6 +92,7 @@ footer {
   padding-bottom: 10px;
   font-size: 12px;
   margin-top: auto;
+  margin-bottom: 2px;
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -84,3 +104,5 @@ footer p {
   margin: 0;
   white-space: pre-wrap;
 }
+
+/*End Footer section*/

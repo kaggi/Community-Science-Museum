@@ -18,6 +18,11 @@
     <!--End Fonts-->
     <!--Styles-->
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="css/media.css" type="text/css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b9ea43cd7c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--End Styles-->
   </head>
@@ -30,23 +35,38 @@
 
       <!--navigation-->
       <div class="navigation">
-        <a href="#" class="logo">
-          <img src="images/csm_logo.png" alt="Community Science Museum Logo" />
-        </a>
+        <div class="logo">
+          <a href="#">
+            <img
+              src="images/csm_logo.png"
+              alt="Community Science Museum Logo"
+            />
+          </a>
+        </div>
+        <label for="hamburger_menu" id="hamburger_menu_label"
+          ><i class="fa fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger_menu" />
 
-        <a href="" class="menu_button" id="menu_button_home">Home</a>
+        <div class="menu_buttons">
+          <a href="" class="menu_button" id="menu_button_home">Home</a>
 
-        <a href="" class="menu_button" id="menu_button_explore">Explore</a>
+          <a href="" class="menu_button" id="menu_button_explore">Explore</a>
 
-        <a href="" class="menu_button" id="menu_button_exhibitions"
-          >Exhibitions</a
-        >
+          <a href="" class="menu_button" id="menu_button_exhibitions"
+            >Exhibitions</a
+          >
 
-        <a href="" class="menu_button" id="menu_button_news">News and Events</a>
+          <a href="" class="menu_button" id="menu_button_news"
+            >News and Events</a
+          >
 
-        <a href="" class="menu_button" id="menu_button_visit">Visit</a>
+          <a href="" class="menu_button" id="menu_button_visit">Visit</a>
 
-        <a href="" class="menu_button" id="menu_button_support">Get Involved</a>
+          <a href="" class="menu_button" id="menu_button_support"
+            >Get Involved</a
+          >
+        </div>
       </div>
 
       <!--End navigation-->
@@ -77,6 +97,6 @@
         <p>X. X. XXXXXXXX</p>
       </div>
     </footer>
-    <!--End Footer-->
+    <!--End Footer section-->
   </body>
 </html>
