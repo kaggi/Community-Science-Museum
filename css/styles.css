@@ -23,16 +23,19 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
 /*End general section*/
 
 /*Header*/
 
 header {
   margin-top: 2px;
-}
-
-#navigation_header {
-  font-family: "ScienceProject-WK5v", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header h1 {
