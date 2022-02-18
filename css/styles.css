@@ -1,0 +1,86 @@
+/*General*/
+
+@font-face {
+  font-family: "ScienceProject-WK5v";
+  src: url("../fonts/ScienceProject-WK5v.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MadScience";
+  src: url("../fonts/MadScience.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceCruiserOutline-lvEX";
+  src: url("../fonts/SpaceCruiserOutline-lvEX.otf") format("opentype");
+}
+
+header,
+footer {
+  background-color: #cfd4d9;
+  border: 1px solid black;
+}
+
+/*Header*/
+#navigation_header {
+  font-family: "ScienceProject-WK5v", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-family: "SpaceCruiserOutline-lvEX", sans-serif;
+  font-size: 60px;
+  color: white;
+  /*
+  -webkit-text-stroke-width: 0.001em;
+  -webkit-text-stroke-color: #cccccc; */
+  background-image: url("../images/csm_navigation_header_background.jpg");
+}
+
+.nav_name,
+#navigation_h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu_button {
+  text-decoration: none;
+  font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  color: #2c6a99;
+  background-color: #cfd4d9;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.menu_button:hover {
+  background-color: white;
+}
+
+/*Footer*/
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  margin-top: auto;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+}
