@@ -12,15 +12,16 @@
 
 header,
 footer {
-  background-color: #cfd4d9;
+  background-color: ;
   border: 1px solid black;
 }
 
 body {
   min-height: 100vh;
-
   display: flex;
   flex-direction: column;
+  font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25;
 }
 
 h1 {
@@ -28,6 +29,23 @@ h1 {
   font-size: 60px;
   color: black;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h2_tile {
+  font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: #2c6a99;
+  letter-spacing: 5px;
+}
+
+.h2_kids {
+}
+
+.h2_blue {
 }
 
 /*End general section*/
@@ -43,9 +61,6 @@ header h1 {
   font-family: "SpaceCruiserOutline-lvEX", sans-serif;
   font-size: 60px;
   color: white;
-  /*
-  -webkit-text-stroke-width: 0.001em;
-  -webkit-text-stroke-color: #cccccc; */
   background-image: url("../images/csm_navigation_header_background.jpg");
 }
 

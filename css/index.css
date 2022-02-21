@@ -3,7 +3,9 @@
   max-height: 300px;
 }
 
-.welcome {
+.welcome,
+.content_tiles,
+.get_involved {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -13,4 +15,28 @@
   background-color: white;
   color: #bf0d01;
   box-shadow: inset 0 0 10px #000000;
+}
+
+.welcome_text_container p {
+  margin-top: 0;
+}
+
+.welcome h1 {
+  grid-area: welcome_h1;
+}
+
+.welcome_image {
+  grid-area: welcome_img;
+}
+.welcome_text_container {
+  grid-area: welcome_text_container;
+}
+
+.welcome {
+  display: grid;
+  max-width: 1400px;
+  gap: 25px;
+  grid-template-areas:
+    "welcome_h1 welcome_h1"
+    "welcome_img welcome_text_container";
 }
