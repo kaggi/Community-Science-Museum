@@ -21,8 +21,9 @@
     <!--End Fonts-->
     <!--Styles-->
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href="css/media.css" type="text/css" rel="stylesheet" />
     <link href="css/explore.css" type="text/css" rel="stylesheet" />
+    <link href="css/media.css" type="text/css" rel="stylesheet" />
+
     <script
       src="https://kit.fontawesome.com/b9ea43cd7c.js"
       crossorigin="anonymous"
@@ -97,42 +98,61 @@
 
       <!--Kids-->
       <section class="explore_kids_section" id="_explore_kids">
-        <h2 class="h2_kids">For Kids</h2>
-        <img
-          src="images/explore_bumper.jpg"
-          alt="A picture of the Bumper swing"
-        />
-        <img
-          src="images/explore_mammoth.jpg"
-          alt="A picture of the Woolly Mammouth"
-        />
-        <img src="images/explore_robot.jpg" alt="A picture of a robot" />
+        <label for="explore_kids_checkbox" id="explore_kids_label"
+          ><h2 class="h2_kids">For Kids</h2></label
+        >
+        <input type="checkbox" id="explore_kids_checkbox" />
+        <div class="explore_kids_container">
+          <div class="explore_kids_pictures">
+            <img
+              id="explore_bumper_picture"
+              src="images/explore_bumper.jpg"
+              alt="A picture of the Bumper swing"
+            />
+            <img
+              id="explore_mammouth_picture"
+              src="images/explore_mammoth.jpg"
+              alt="A picture of the Woolly Mammouth"
+            />
+            <img
+              id="explore_robot_picture"
+              src="images/explore_robot.jpg"
+              alt="A picture of a robot"
+            />
+          </div>
+          <div class="explore_kids_picture_buttons"></div>
 
-        <p>
-          Are you a young person looking to learn more about science? Come on
-          down to our museum, there's plenty to see and do.
-        </p>
-        <p>
-          You can learn about Newtonian physics from our bumper swing, or why
-          not travel back in time and meet our resident Woolly Mammoth?
-        </p>
-        <p>
-          Our exhibits are designed to be accessible for interested minds, so
-          make sure you come ready to learn and explore.
-        </p>
-
-        <img src="images/explore_holyday_club.jpg" alt="Young Stars club" />
-        <p>
-          We also have the Young Stars club which meets once a week on a
-          Saturday between 10:00 and 13:00 where you'll get to explore and
-          experiment with our team of experts.
-        </p>
-        <p>
-          During the school holidays we run special holiday clubs where you can
-          join other children your age to go on a journey of discovery. Each
-          holiday we pick a new theme to explore. To find out more about the
-          holiday club and how you can join, send us a message.
-        </p>
+          <p>
+            Are you a young person looking to learn more about science? Come on
+            down to our museum, there's plenty to see and do.
+          </p>
+          <p>
+            You can learn about Newtonian physics from our bumper swing, or why
+            not travel back in time and meet our resident Woolly Mammoth?
+          </p>
+          <p>
+            Our exhibits are designed to be accessible for interested minds, so
+            make sure you come ready to learn and explore.
+          </p>
+          <div class="holyday_club_container">
+            <img
+              id="holyday_club_picture"
+              src="images/explore_holyday_club.jpg"
+              alt="Young Stars club"
+            />
+            <p>
+              We also have the Young Stars club which meets once a week on a
+              Saturday between 10:00 and 13:00 where you'll get to explore and
+              experiment with our team of experts.
+            </p>
+            <p>
+              During the school holidays we run special holiday clubs where you
+              can join other children your age to go on a journey of discovery.
+              Each holiday we pick a new theme to explore. To find out more
+              about the holiday club and how you can join, send us a message.
+            </p>
+          </div>
+        </div>
       </section>
       <!--End kids section-->
 
