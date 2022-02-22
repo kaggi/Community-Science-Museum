@@ -40,3 +40,76 @@
     "welcome_h1 welcome_h1"
     "welcome_img welcome_text_container";
 }
+
+.content_tiles {
+  display: flex;
+  flex-direction: row;
+}
+
+.explore_tile,
+.exhibitions_tile,
+.news_tile,
+.visit_tile {
+  width: 315px;
+  height: 450px;
+  border: solid black 1px;
+}
+
+.explore_tile p,
+.exhibitions_tile p,
+.news_tile p,
+.visit_tile p {
+  text-align: center;
+}
+
+.tile_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#support_button {
+  max-width: 360px;
+  max-height: 60px;
+}
+
+.explore_tile {
+  grid-area: explore_tile;
+}
+.exhibitions_tile {
+  grid-area: exhibitions_tile;
+}
+.news_tile {
+  grid-area: news_tile;
+}
+.visit_tile {
+  grid-area: visit_tile;
+}
+
+.content_tiles {
+  max-width: 1400px;
+  display: grid;
+  grid-template-areas: "explore_tile exhibitions_tile news_tile visit_tile";
+}
+
+.visit_map_item {
+  text-align: center;
+}
+
+.visit_map {
+  width: 262px;
+  height: 235px;
+  text-align: center;
+}
+
+.get_involved {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#support_button {
+  padding: 10px 30px;
+}

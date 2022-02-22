@@ -12,7 +12,7 @@
 
 header,
 footer {
-  background-color: ;
+  background-color: #cfd4d9;
   border: 1px solid black;
 }
 
@@ -21,14 +21,15 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25;
+  font-size: 25px;
 }
 
 h1 {
   font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
-  color: black;
+  color: #0d0d0d;
   text-align: center;
+  padding; 0;
 }
 
 a {
@@ -36,16 +37,27 @@ a {
 }
 
 .h2_tile {
-  font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
+  font-family: "SpaceCruiserOutline-lvEX", Georgia, "Times New Roman", Times,
+    serif;
   font-size: 45px;
-  color: #2c6a99;
-  letter-spacing: 5px;
+  color: white;
+  background-image: url("../images/csm_navigation_header_background.jpg");
+  max-height: 60px;
+  max-width: 315px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .h2_kids {
 }
 
 .h2_blue {
+  font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  font-weight: Medium;
+  color: #2c6a99;
+  text-align: center;
 }
 
 /*End general section*/

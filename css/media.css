@@ -17,6 +17,25 @@
   .menu_button {
     font-size: 26px;
   }
+
+  /*Home*/
+  .welcome {
+    max-width: 1200px;
+  }
+
+  .home_interior {
+    max-width: 400px;
+    max-height: 205px;
+  }
+
+  .content_tiles {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-areas:
+      "explore_tile exhibitions_tile"
+      "news_tile visit_tile";
+  }
 }
 
 @media only screen and (max-device-width: 1230px) {
@@ -31,6 +50,25 @@
   .menu_button {
     padding: 10px 10px;
   }
+
+  /*Visit*/
+
+  main {
+    max-width: 900px;
+  }
+
+  #visit_location_map,
+  .visit_hours_table,
+  #visit_cafeteria,
+  #visit_shop_picture {
+    width: 100%;
+  }
+
+  .visit_container,
+  .visit_food_container,
+  .visit_shop_container {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-device-width: 940px) {
@@ -38,15 +76,17 @@
   .menu_button {
     padding: 5px 5px;
   }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-device-width: 875px) {
   /*Header - hamburger menu*/
   .menu_buttons {
-    display: none;
-  }
-
-  #hamburger_menu {
     display: none;
   }
 
@@ -58,10 +98,73 @@
     font-size: 50px;
   }
 
+  .logo {
+    grid-area: logo;
+  }
+  .hamburger_menu {
+    grid-area: hamburger_menu;
+  }
+  .menu_buttons {
+    grid-area: menu_buttons;
+  }
+
+  .navigation {
+    display: grid;
+    align-items: center;
+    grid-template-areas:
+      "logo hamburger_menu"
+      " . menu_buttons";
+  }
+
   #hamburger_menu:checked ~ .menu_buttons {
     display: flex;
     flex-direction: column;
     margin-left: 2px;
+  }
+
+  /*Home*/
+  .home_interior {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 650px) {
+  .content_tiles {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+      "explore_tile"
+      "exhibitions_tile"
+      "news_tile"
+      "visit_tile";
+  }
+}
+
+@media only screen and (max-device-width: 495px) {
+  /*Visit*/
+  #visit_location_map,
+  #visit_shop_picture {
+    width: 250px;
+    height: 250px;
+  }
+
+  #visit_location_museum,
+  #visit_cafeteria {
+    width: 300px;
+    height: 250px;
+  }
+
+  #visit_location_museum,
+  .visit_container,
+  .visit_food_container,
+  .visit_shop_container {
+    align-items: center;
+  }
+
+  .left {
+    padding-right: 20px;
   }
 }
 
@@ -88,6 +191,40 @@
     grid-template-areas:
       "footer_address footer_error_found"
       "footer_address footer_created_by";
+  }
+
+  body {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-device-width: 395px) {
+  #support_button {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-device-width: 315px) {
+  .explore_tile,
+  .exhibitions_tile,
+  .news_tile,
+  .visit_tile {
+    width: 220px;
+    height: 450px;
+    border: solid black 1px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .h2_tile {
+    font-size: 35px;
+  }
+  .visit_map {
+    width: 200px;
+    height: 180px;
+    text-align: center;
   }
 }
 

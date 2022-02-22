@@ -1,0 +1,69 @@
+main {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visit_container,
+.visit_admission_section,
+.visit_hours_section,
+.visit_accessibility_section,
+.visit_food_section,
+.visit_shop_section {
+  margin-bottom: 100px;
+}
+
+.visit_container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: space-evenly;
+  margin-top: 50px;
+}
+
+#visit_location_map {
+  flex: 1;
+}
+
+.visit_location_text {
+  flex: 2;
+}
+
+visit_location_museum {
+  flex: 1;
+}
+
+.visit_location_text {
+  text-align: center;
+}
+
+.visit_hours_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  padding-right: 50px;
+}
+
+.visit_food_container,
+.visit_shop_container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+#visit_cafeteria {
+  flex: 1;
+}
+
+#visit_cafeteria_text {
+  flex: 2;
+}
+
+#visit_shop_picture {
+  flex: 1;
+}
+
+#visit_shop_text {
+  flex: 2;
+}

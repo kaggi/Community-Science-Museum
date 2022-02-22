@@ -18,8 +18,8 @@
     <!--End Fonts-->
     <!--Styles-->
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href="css/media.css" type="text/css" rel="stylesheet" />
     <link href="css/visit.css" type="text/css" rel="stylesheet" />
+    <link href="css/media.css" type="text/css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b9ea43cd7c.js"
       crossorigin="anonymous"
@@ -86,16 +86,29 @@
     <!--Main-->
     <main>
       <!--Location-->
+
+      <section class="visit_location_section" id="visit_location"></section>
       <h1>Visit</h1>
-      <section class="visit_location_section" id="visit_location">
-        <img
-          src="images/home_visit_map_tile.png"
-          alt="A map of the museum location"
-        />
-        <h2 class="h2_blue">Location</h2>
-        <p>The museum is located at</p>
-        <p>Thormøhlens gate 51, 5006 Bergen</p>
-        <img src="images/visit_museum.jpg" alt="A picture of the museum" />
+      
+      <div class="visit_container">
+          <img
+            id="visit_location_map"
+            src="images/home_visit_map_tile.png"
+            alt="A map of the museum location"
+          />
+          <div class="visit_location_text">
+            <h2 class="h2_blue">Location</h2>
+            <p>The museum is located at</p>
+            <p>Thormøhlens gate 51,</p> 
+            <p>5006 Bergen</p>
+          </div>
+          <img
+            id="visit_location_museum"
+            src="images/visit_museum.jpg"
+            alt="A picture of the museum"
+          />
+
+      </div>
       </section>
       <!--End location section-->
 
@@ -120,7 +133,7 @@
         <h2 class="h2_blue">Hours</h2>
         <table class="visit_hours_table">
           <tr>
-            <td>Monday</td>
+            <td class="left">Monday</td>
             <td>Closed</td>
           </tr>
           <tr>
@@ -128,23 +141,23 @@
             <td>10:00 - 16:00</td>
           </tr>
           <tr>
-            <td>Wednesday</td>
+            <td class="left">Wednesday</td>
             <td>10:00 - 16:00</td>
           </tr>
           <tr>
-            <td>Thursday</td>
+            <td class="left">Thursday</td>
             <td>10:00 - 16:00</td>
           </tr>
           <tr>
-            <td>Friday</td>
+            <td class="left">Friday</td>
             <td>10:00 - 19:00</td>
           </tr>
           <tr>
-            <td>Saturday</td>
+            <td class="left">Saturday</td>
             <td>10:00 - 16:00</td>
           </tr>
           <tr>
-            <td>Sunday</td>
+            <td class="left">Sunday</td>
             <td>10:00 - 13:00</td>
           </tr>
         </table>
@@ -164,26 +177,30 @@
       <!--Food-->
       <section class="visit_food_section" id="visit_food">
         <h2 class="h2_blue">Food and drink</h2>
-        <img src="images/visit_cafe.jpg" alt="A picture of a cafeteria" />
-        <p>
-          There is a café attached to the museum where you can get light
-          lunches, soft drinks, coffee, snacks and more.
-        </p>
+        <div class="visit_food_container">
+          <img id="visit_cafeteria" src="images/visit_cafe.jpg" alt="A picture of a cafeteria" />
+          <p id="visit_cafeteria_text">
+            There is a café attached to the museum where you can get light
+            lunches, soft drinks, coffee, snacks and more.
+          </p>
+        </div>
       </section>
       <!--End food section-->
 
       <!--Shop-->
       <section class="visit_shop_section" id="visit_shop">
         <h2 class="h2_blue">Shop</h2>
-        <img
-          src="images/visit_shop.jpg"
-          alt="A picture of an educational toy"
-        />
-        <p>
-          Our shop offers a range of memorabilia from the museum as well as
-          great gifts and activity packs that allow you to continue to explore
-          science even after you’ve left the museum.
-        </p>
+        <div class="visit_shop_container">
+          <img id="visit_shop_picture"
+            src="images/visit_shop.jpg"
+            alt="A picture of an educational toy"
+          />
+          <p id="visit_shop_text">
+            Our shop offers a range of memorabilia from the museum as well as
+            great gifts and activity packs that allow you to continue to explore
+            science even after you’ve left the museum.
+          </p>
+        </div>
       </section>
       <!--End shop section-->
     </main>
