@@ -57,17 +57,17 @@
     max-width: 900px;
   }
 
+  .visit_container,
+  .visit_food_container,
+  .visit_shop_container {
+    flex-direction: column;
+  }
+
   #visit_location_map,
   .visit_hours_table,
   #visit_cafeteria,
   #visit_shop_picture {
     width: 100%;
-  }
-
-  .visit_container,
-  .visit_food_container,
-  .visit_shop_container {
-    flex-direction: column;
   }
 }
 
