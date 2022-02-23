@@ -128,7 +128,7 @@
   }
 
   .explore_kids_pictures img {
-    max-width: 450px;
+    width: 100%;
   }
 
   .explore_kids_container {
