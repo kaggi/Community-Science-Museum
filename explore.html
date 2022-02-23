@@ -92,7 +92,7 @@
       <!--Welcome-->
       <section class="explore_welcome_section">
         <h1>Explore</h1>
-        <p>We have plenty to offer for everybody!</p>
+        <p id="welcome_section_p">We have plenty to offer for everybody!</p>
       </section>
       <!--End welcome section-->
 
@@ -102,25 +102,53 @@
           ><h2 class="h2_kids">For Kids</h2></label
         >
         <input type="checkbox" id="explore_kids_checkbox" />
+
         <div class="explore_kids_container">
           <div class="explore_kids_pictures">
+            <input
+              type="radio"
+              name="picture"
+              value="1"
+              checked="checked"
+              id="show_bumper_picture"
+            />
+            <input
+              type="radio"
+              name="picture"
+              value="2"
+              id="show_mammouth_picture"
+            />
+
+            <input
+              type="radio"
+              name="picture"
+              value="3"
+              id="show_robot_picture"
+            />
             <img
               id="explore_bumper_picture"
               src="images/explore_bumper.jpg"
               alt="A picture of the Bumper swing"
             />
+
             <img
               id="explore_mammouth_picture"
               src="images/explore_mammoth.jpg"
               alt="A picture of the Woolly Mammouth"
             />
+
             <img
               id="explore_robot_picture"
               src="images/explore_robot.jpg"
               alt="A picture of a robot"
             />
+
+            <div class="radio_labels">
+              <label for="show_bumper_picture">1</label>
+              <label for="show_mammouth_picture">2</label>
+              <label for="show_robot_picture">3</label>
+            </div>
           </div>
-          <div class="explore_kids_picture_buttons"></div>
 
           <p>
             Are you a young person looking to learn more about science? Come on
@@ -135,22 +163,27 @@
             make sure you come ready to learn and explore.
           </p>
           <div class="holyday_club_container">
-            <img
-              id="holyday_club_picture"
-              src="images/explore_holyday_club.jpg"
-              alt="Young Stars club"
-            />
-            <p>
-              We also have the Young Stars club which meets once a week on a
-              Saturday between 10:00 and 13:00 where you'll get to explore and
-              experiment with our team of experts.
-            </p>
-            <p>
-              During the school holidays we run special holiday clubs where you
-              can join other children your age to go on a journey of discovery.
-              Each holiday we pick a new theme to explore. To find out more
-              about the holiday club and how you can join, send us a message.
-            </p>
+            <div class="holyday_club_picture">
+              <img
+                id="holyday_club_picture"
+                src="images/explore_holyday_club.jpg"
+                alt="Young Stars club"
+              />
+            </div>
+            <div class="holyday_club_text">
+              <p>
+                We also have the Young Stars club which meets once a week on a
+                Saturday between 10:00 and 13:00 where you'll get to explore and
+                experiment with our team of experts.
+              </p>
+              <p>
+                During the school holidays we run special holiday clubs where
+                you can join other children your age to go on a journey of
+                discovery. Each holiday we pick a new theme to explore. To find
+                out more about the holiday club and how you can join, send us a
+                message.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -158,32 +191,48 @@
 
       <!--Teachers-->
       <section class="explore_teachers_section" id="explore_teachers">
-        <h2 class="h2_kids">For Teachers</h2>
-        <p>
-          As a community-driven museum, we want to work with schools to create
-          places of learning and exploring. Our team are on hand to give your
-          students guided tours of the museum, teach them in our learning
-          laboratory, and provide great video presentations that will excite and
-          inspire them.
-        </p>
-        <p>
-          Please get in touch with us here to find out more about our facilities
-          and to arrange a time to bring your students through for a visit.
-        </p>
+        <label for="explore_teachers_checkbox" id="explore_teachers_label">
+          <h2 class="h2_kids">For Teachers</h2>
+        </label>
+        <input type="checkbox" id="explore_teachers_checkbox" />
+        <div class="explore_teachers_container">
+          <p>
+            As a community-driven museum, we want to work with schools to create
+            places of learning and exploring. Our team are on hand to give your
+            students guided tours of the museum, teach them in our learning
+            laboratory, and provide great video presentations that will excite
+            and inspire them.
+          </p>
+          <p>
+            Please get in touch with us here to find out more about our
+            facilities and to arrange a time to bring your students through for
+            a visit.
+          </p>
+        </div>
       </section>
 
       <!--End teachers section-->
 
       <!--Researchers-->
       <section class="explore_researchers_section" id="explore_researchers">
-        <h2 class="h2_kids">Researchers</h2>
-        <p>
-          Are you looking to get involved with our team of researchers and
-          academics? Our museum offers various ways for you to use our resources
-          and contribute towards them. We have online records, laboratory space,
-          and a working relationship with a number of universities around the
-          country.
-        </p>
+        <label
+          for="explore_researchers_checkbox"
+          id="explore_researchers_label"
+        >
+          <h2 class="h2_kids">Researchers</h2>
+        </label>
+
+        <input type="checkbox" id="explore_researchers_checkbox" />
+
+        <div class="explore_researchers_container">
+          <p>
+            Are you looking to get involved with our team of researchers and
+            academics? Our museum offers various ways for you to use our
+            resources and contribute towards them. We have online records,
+            laboratory space, and a working relationship with a number of
+            universities around the country.
+          </p>
+        </div>
       </section>
 
       <!--End researchers section-->

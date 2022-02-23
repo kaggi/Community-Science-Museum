@@ -50,6 +50,12 @@ a {
 }
 
 .h2_kids {
+  font-family: "MadScience", Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: #2c6a99;
+  -webkit-text-stroke-width: 0.001em;
+  -webkit-text-stroke-color: black;
+  text-align: center;
 }
 
 .h2_blue {

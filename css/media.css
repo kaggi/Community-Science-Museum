@@ -12,6 +12,13 @@
   }
 }
 
+@media only screen and (max-device-width: 1400px) {
+  /*Explore*/
+  .explore_kids_pictures img {
+    max-width: 400px;
+  }
+}
+
 @media only screen and (max-device-width: 1345px) {
   /*Header*/
   .menu_button {
@@ -42,6 +49,11 @@
   /*Header*/
   .menu_button {
     font-size: 20px;
+  }
+
+  /*Explore*/
+  .explore_kids_pictures img {
+    max-width: 300px;
   }
 }
 
@@ -81,6 +93,52 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /*Explore*/
+  .radio_labels {
+    display: block;
+  }
+  #show_bumper_picture:checked ~ #explore_mammouth_picture {
+    display: none;
+  }
+
+  #show_bumper_picture:checked ~ #explore_robot_picture {
+    display: none;
+  }
+
+  #show_mammouth_picture:checked ~ #explore_bumper_picture {
+    display: none;
+  }
+
+  #show_mammouth_picture:checked ~ #explore_robot_picture {
+    display: none;
+  }
+
+  #show_robot_picture:checked ~ #explore_bumper_picture {
+    display: none;
+  }
+
+  #show_robot_picture:checked ~ #explore_mammouth_picture {
+    display: none;
+  }
+
+  .explore_kids_pictures {
+    flex-direction: column;
+  }
+
+  .explore_kids_pictures img {
+    width: 100%;
+    text-align: center;
+  }
+  .explore_kids_container {
+    flex-direction: column;
+  }
+  .holyday_club_container {
+    flex-direction: column;
+  }
+  .holyday_club_picture {
+    text-align: center;
   }
 }
 
@@ -195,6 +253,45 @@
 
   body {
     font-size: 20px;
+  }
+
+  /*Explore*/
+
+  .h2_kids {
+    font-size: 35px;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+  }
+
+  .explore_kids_container {
+    display: none;
+  }
+
+  #explore_kids_checkbox:checked ~ .explore_kids_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore_teachers_container {
+    display: none;
+  }
+
+  #explore_teachers_checkbox:checked ~ .explore_teachers_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore_researchers_container {
+    display: none;
+  }
+
+  #explore_researchers_checkbox:checked ~ .explore_researchers_container {
+    display: flex;
+    flex-direction: column;
   }
 }
 

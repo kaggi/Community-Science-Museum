@@ -10,15 +10,40 @@ main {
   margin-right: auto;
 }
 
+#welcome_section_p {
+  text-align: center;
+}
+
+.explore_kids_pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #explore_kids_checkbox {
   display: none;
 }
 
-.explore_kids_container {
+.holyday_club_container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+#show_bumper_picture,
+#show_mammouth_picture,
+#show_robot_picture {
   display: none;
 }
 
-#explore_kids_checkbox:checked ~ .explore_kids_container {
-  display: flex;
-  flex-direction: column;
+.radio_labels {
+  display: none;
+}
+
+#explore_teachers_checkbox {
+  display: none;
+}
+
+#explore_researchers_checkbox {
+  display: none;
 }
