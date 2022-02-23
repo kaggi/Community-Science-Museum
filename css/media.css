@@ -129,6 +129,7 @@
 
   .explore_kids_pictures img {
     width: 100%;
+    overflow: clip;
   }
 
   .explore_kids_container {
