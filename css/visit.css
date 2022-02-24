@@ -4,12 +4,6 @@
   box-shadow: inset 0 0 10px #000000;
 }
 
-main {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .visit_container,
 .visit_admission_section,
 .visit_hours_section,

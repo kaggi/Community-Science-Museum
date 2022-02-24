@@ -3,14 +3,6 @@
   max-height: 300px;
 }
 
-.welcome,
-.content_tiles,
-.get_involved {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #menu_button_home {
   background-color: white;
   color: #bf0d01;

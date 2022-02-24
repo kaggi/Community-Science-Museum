@@ -21,8 +21,8 @@
     <!--End Fonts-->
     <!--Styles-->
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href="css/media.css" type="text/css" rel="stylesheet" />
     <link href="css/exhibitions.css" type="text/css" rel="stylesheet" />
+    <link href="css/media.css" type="text/css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b9ea43cd7c.js"
       crossorigin="anonymous"
@@ -91,107 +91,178 @@
       <h1>Exhibition Spaces</h1>
 
       <!--Cosmology-->
-      <section class="exhibitions_cosmology_section" id="exhibitions_cosmology">
-        <h2>Cosmology</h2>
-        <img
-          src="images/exhibitions_eclipse.jpg"
-          alt="A picture of an eclipse"
+      <section class="exhibitions_section" id="exhibitions_cosmology">
+        <input
+          type="checkbox"
+          class="exhibitions_checkbox"
+          id="exhibitions_cosmology_checkbox"
         />
-        <p>
-          Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky
-          Above Us’, explores the night sky and what we can see and know about
-          the universe around us. We’ll locate the various constellations and
-          galaxies that can be seen and learn a bit about the early navigators
-          who used the stars to travel by.
-        </p>
-        <p>
-          Follow the journey of our solar exploration: from early Arab traders,
-          to Galileo’s telescope, to the latest exploration of the planets in
-          our solar system.
-        </p>
+        <label for="exhibitions_cosmology_checkbox">
+          <h2 class="h2_tile exhibition_title">Cosmology</h2></label
+        >
+        <div id="exhibition_cosmology_container">
+          <div class="exhibition_image">
+            <img
+              src="images/exhibitions_eclipse.jpg"
+              alt="A picture of an eclipse"
+            />
+          </div>
+          <div class="exhibition_text">
+            <p>
+              Explore the wonders of our cosmos. Our fantastic exhibition, 'The
+              Sky Above Us', explores the night sky and what we can see and know
+              about the universe around us. We'll locate the various
+              constellations and galaxies that can be seen and learn a bit about
+              the early navigators who used the stars to travel by.
+            </p>
+            <p>
+              Follow the journey of our solar exploration: from early Arab
+              traders, to Galileo's telescope, to the latest exploration of the
+              planets in our solar system.
+            </p>
+          </div>
+        </div>
       </section>
       <!--End cosmology section-->
 
       <!--Evolution-->
-      <section class="exhibitions_evolution_section" id="exhibitions_evolution">
-        <h2>Evolution</h2>
-        <img src="images/exhibitions_fossil.jpg" alt="A picture of a fossil" />
-        <p>
-          For centuries, philosophers and scientists have wrestled with the
-          question of our origins. Where do we come from and how did we get
-          here? Since Darwin proposed his theory of evolution we have had a
-          framework for exploring and understanding our place in this world.
-        </p>
-        <p>
-          Discover the origins of life on this planet and how the species we
-          know today have evolved our time. You can also take some time to meet
-          a few of the creatures who didn’t survive, including our Woolly
-          Mammoth, the Dodos, and a number of dinosaurs too.
-        </p>
+      <section class="exhibitions_section" id="exhibitions_evolution">
+        <input
+          type="checkbox"
+          class="exhibitions_checkbox"
+          id="exhibitions_evolution_checkbox"
+        />
+        <label for="exhibitions_evolution_checkbox"
+          ><h2 class="h2_tile exhibition_title">Evolution</h2></label
+        >
+        <div id="exhibition_evolution_container">
+          <div class="exhibition_image">
+            <img
+              src="images/exhibitions_fossil.jpg"
+              alt="A picture of a fossil"
+            />
+          </div>
+          <div class="exhibition_text">
+            <p>
+              For centuries, philosophers and scientists have wrestled with the
+              question of our origins. Where do we come from and how did we get
+              here? Since Darwin proposed his theory of evolution we have had a
+              framework for exploring and understanding our place in this world.
+            </p>
+            <p>
+              Discover the origins of life on this planet and how the species we
+              know today have evolved our time. You can also take some time to
+              meet a few of the creatures who didn't survive, including our
+              Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!--End evolution section-->
 
       <!--Biology-->
-      <section class="exhibitions_biology_section" id="exhibitions_biology">
-        <h2>Biology and Medicine</h2>
-        <img
-          src="images/exhibitions_skeleton.jpg"
-          alt="A picture of sceletons"
+      <section class="exhibitions_section" id="exhibitions_biology">
+        <input
+          type="checkbox"
+          class="exhibitions_checkbox"
+          id="exhibitions_biology_checkbox"
         />
-        <p>
-          From micro-organisms to the human body, major breakthroughs in biology
-          are offering us unique insights into the great wonders of the tiny
-          world.
-        </p>
-        <p>
-          For many people their life expectancy is much longer and their quality
-          of life much improved, thanks to the growth of our understanding of
-          medicine. Over a series of exhibits we explore the history of medicine
-          and take a look at some major breakthroughs including the discovery of
-          penicillin and the first heart transplant.
-        </p>
-        <p>
-          Many of our great medicinal discoveries have come not only from the
-          lab, but also from observing animals in the wild. Often our fellow
-          creatures have beat us to it.
-        </p>
+        <label for="exhibitions_biology_checkbox"
+          ><h2 class="h2_tile exhibition_title">Biology and Medicine</h2></label
+        >
+
+        <div id="exhibition_biology_container">
+          <div class="exhibition_image">
+            <img
+              src="images/exhibitions_skeleton.jpg"
+              alt="A picture of sceletons"
+            />
+          </div>
+          <div class="exhibition_text">
+            <p>
+              From micro-organisms to the human body, major breakthroughs in
+              biology are offering us unique insights into the great wonders of
+              the tiny world.
+            </p>
+            <p>
+              For many people their life expectancy is much longer and their
+              quality of life much improved, thanks to the growth of our
+              understanding of medicine. Over a series of exhibits we explore
+              the history of medicine and take a look at some major
+              breakthroughs including the discovery of penicillin and the first
+              heart transplant.
+            </p>
+            <p>
+              Many of our great medicinal discoveries have come not only from
+              the lab, but also from observing animals in the wild. Often our
+              fellow creatures have beat us to it.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!--End biology section-->
 
       <!--Robotics-->
-      <section class="exhibitions_robotics_section" id="exhibitions_robotics">
-        <h2>Robotics and AI</h2>
-        <img src="images/explore_robot.jpg" alt="A picture of a robot" />
-        <p>
-          The information revolution is here and robotics and artificial
-          intelligence are the science of the future. From useful home
-          applications of AI to industrial uses of robotics, the future is here.
-          You can even say hello and shake the hand of Rob the Robot.
-        </p>
+      <section class="exhibitions_section" id="exhibitions_robotics">
+        <input
+          type="checkbox"
+          class="exhibitions_checkbox"
+          id="exhibitions_robotics_checkbox"
+        />
+        <label for="exhibitions_robotics_checkbox">
+          <h2 class="h2_tile exhibition_title">Robotics and AI</h2></label
+        >
+        <div id="exhibition_robotics_container">
+          <div class="exhibition_image">
+            <img src="images/explore_robot.jpg" alt="A picture of a robot" />
+          </div>
+          <div class="exhibition_text">
+            <p>
+              The information revolution is here and robotics and artificial
+              intelligence are the science of the future. From useful home
+              applications of AI to industrial uses of robotics, the future is
+              here. You can even say hello and shake the hand of Rob the Robot.
+            </p>
+          </div>
+        </div>
       </section>
       <!--End robotics section-->
 
       <!--Ecology-->
-      <section class="exhibitions_ecology_section" id="exhibitions_ecology">
-        <h2>Ecology</h2>
-        <img
-          src="images/exhibitions_ecology.jpg"
-          alt="A picture of hands planting sprouts"
+      <section class="exhibitions_section" id="exhibitions_ecology">
+        <input
+          type="checkbox"
+          class="exhibitions_checkbox"
+          id="exhibitions_ecology_checkbox"
         />
-        <p>
-          As we learn more and more of the impact humans are having on the
-          planet, the more important it becomes that scientists explore how to
-          create a sustainable future not just for humans but for the whole
-          planet.
-        </p>
-        <p>
-          In our ecology section of the museum, we unpack the dangers we
-          currently face including global warming, extinction of species, and
-          pollution. But we also focus on the positive ways we can all
-          contribute to a brighter future.
-        </p>
+        <label for="exhibitions_ecology_checkbox">
+          <h2 class="h2_tile exhibition_title">Ecology</h2></label
+        >
+
+        <div id="exhibition_ecology_container">
+          <div class="exhibition_image">
+            <img
+              src="images/exhibitions_ecology.jpg"
+              alt="A picture of hands planting sprouts"
+            />
+          </div>
+          <div class="exhibition_text">
+            <p>
+              As we learn more and more of the impact humans are having on the
+              planet, the more important it becomes that scientists explore how
+              to create a sustainable future not just for humans but for the
+              whole planet.
+            </p>
+            <p>
+              In our ecology section of the museum, we unpack the dangers we
+              currently face including global warming, extinction of species,
+              and pollution. But we also focus on the positive ways we can all
+              contribute to a brighter future.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!--End  section-->
