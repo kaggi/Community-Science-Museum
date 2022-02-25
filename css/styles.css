@@ -80,12 +80,14 @@ header {
   margin-top: 2px;
 }
 
-header h1 {
+#navigation_p {
   text-align: center;
   font-family: "SpaceCruiserOutline-lvEX", sans-serif;
   font-size: 60px;
   color: white;
   background-image: url("../images/csm_navigation_header_background.jpg");
+  padding: 0;
+  margin: 0;
 }
 
 .nav_name,
