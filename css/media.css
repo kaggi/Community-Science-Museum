@@ -55,9 +55,11 @@
   .explore_kids_pictures img {
     max-width: 300px;
   }
+
+  /*News*/
 }
 
-@media only screen and (max-device-width: 1055px) {
+@media only screen and (max-device-width: 1060px) {
   /*Header*/
   .menu_button {
     padding: 10px 10px;
@@ -80,6 +82,12 @@
   #visit_cafeteria,
   #visit_shop_picture {
     width: 100%;
+  }
+
+  /*News*/
+  .news_section {
+    flex-direction: column;
+    align-self: start;
   }
 }
 
@@ -250,6 +258,12 @@
   .exhibition_title {
     font-size: 30px;
   }
+
+  /*News*/
+  .news_image_2 {
+    width: 300px;
+    padding-left: 15px;
+  }
 }
 
 @media only screen and (max-device-width: 410px) {
@@ -400,6 +414,12 @@
   .exhibition_title {
     font-size: 25px;
   }
+
+  /*News*/
+
+  .news_image_2 {
+    max-width: 295px;
+  }
 }
 
 @media only screen and (max-device-width: 200px) {
@@ -409,5 +429,10 @@
 
   footer {
     font-size: 8px;
+  }
+
+  /*News*/
+  .news_image_2 {
+    width: 150px;
   }
 }

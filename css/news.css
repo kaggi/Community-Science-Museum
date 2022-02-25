@@ -3,3 +3,39 @@
   color: #bf0d01;
   box-shadow: inset 0 0 10px #000000;
 }
+
+.news_section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  border: solid black 1px;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.news_image {
+  flex: 1;
+}
+
+.news_text {
+  flex: 3;
+}
+
+.news_image_1,
+.news_image_2 {
+  max-height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.news_image_1 {
+  padding-left: 15px;
+}
+
+.news_image_2 {
+  padding-right: 15px;
+}
+
+#news_energetica {
+  margin-bottom: 50px;
+}
