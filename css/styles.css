@@ -38,8 +38,9 @@ h1 {
   padding: 0;
 }
 
-a {
+main a {
   text-decoration: none;
+  color: #2c6a99;
 }
 
 .h2_tile {
