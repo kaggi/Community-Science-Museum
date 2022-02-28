@@ -13,12 +13,8 @@
   align-items: center;
 }
 
-.news_image {
-  flex: 1;
-}
-
-.news_text {
-  flex: 3;
+#label_professor {
+  grid-area: label_professor;
 }
 
 .news_image_1,
