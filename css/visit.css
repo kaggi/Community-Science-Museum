@@ -25,11 +25,20 @@
 }
 
 .visit_location_text {
-  flex: 2;
+  flex: 1;
 }
 
-visit_location_museum {
+#visit_location_museum {
   flex: 1;
+}
+
+.map {
+  width: 400px;
+  border: 0;
+}
+
+#visit_location_museum {
+  max-width: 400px;
 }
 
 .visit_location_text {

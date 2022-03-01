@@ -231,7 +231,7 @@
 
 @media only screen and (max-device-width: 495px) {
   /*Visit*/
-  #visit_location_map,
+  .map,
   #visit_shop_picture {
     width: 250px;
     height: 250px;
