@@ -4,17 +4,16 @@ Community Science Museum website. Information about the museum, exhibitions, eve
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Users:
+1. Schoolchildren, age 7 - 15
+2. Teachers who consider to visit Museum as a part of teaching plan
+3. Parents who are interested in taking children to the museum for entertainment or educational purposes
+4. Possible business partners, researchers or those who interested in working in the museum
+5. General public
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+Site provide information on Museum exhibitions, address, working hours, organizing visits, coming events and possible cooperation. 
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - HTML
 - CSS
@@ -29,19 +28,8 @@ Download zip-file or use GitHub Desktop: https://desktop.github.com/
 
 Deploy site on your web host
 
-
-
 ## Contact
 
 [My Facebook page](https://www.facebook.com/lola.lohne)
 
 My e-mail: lola.lohne@gmail.com
-
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
