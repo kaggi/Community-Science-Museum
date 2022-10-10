@@ -11,7 +11,7 @@ Users:
 4. Possible business partners, researchers or those who interested in working in the museum
 5. General public
 
-Site provide information on Museum exhibitions, address, working hours, organizing visits, coming events and possible cooperation. 
+Site provides information on Museum exhibitions, address, working hours, organizing visits, coming events and possible cooperation. 
 
 ## Built With
 
